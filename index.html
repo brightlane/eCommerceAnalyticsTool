@@ -56,7 +56,7 @@
     <link rel="alternate" hreflang="es" href="https://brightlane.github.io/eCommerceAnalyticsTool/jungle-scout-review-2026-es.html" />
     <link rel="alternate" hreflang="fr" href="https://brightlane.github.io/eCommerceAnalyticsTool/jungle-scout-review-2026-fr.html" />
     <link rel="alternate" hreflang="de" href="https://brightlane.github.io/eCommerceAnalyticsTool/jungle-scout-review-2026-de.html" />
-    <link rel="alternate" href="https://brightlane.github.io/eCommerceAnalyticsTool/" />
+    <link rel="alternate" hreflang="x-default" href="https://brightlane.github.io/eCommerceAnalyticsTool/" />
 
     <!-- FAVICONS -->
     <link rel="icon" href="/favicon.ico" sizes="any">
@@ -65,8 +65,8 @@
 
     <!-- CORE WEB VITALS WAR MACHINE -->
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin="anonymous" />
-    <link rel="dns-prefetch" href="//www.junglescout.com" />
     <link rel="dns-prefetch" href="//fonts.gstatic.com" />
+    <link rel="dns-prefetch" href="//www.junglescout.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@200..900&amp;display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -77,7 +77,69 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     </noscript>
 
-    <!-- 10x SCHEMA FORTRESS: Speak Google's Language -->
+    <!-- CRITICAL CSS -->
+    <style>
+        :root {
+            --success: #28a745;
+            --dark: #212529;
+        }
+        * {
+            box-sizing: border-box;
+            scrollbar-width: thin;
+        }
+        body {
+            font: 400 1rem/1.6 'Inter', sans-serif;
+            margin: 0;
+            color: var(--dark);
+            overflow-x: hidden;
+            background: #f8f9fa;
+        }
+        h1, h2, h3 { font-weight: 400; line-height: 1.2; }
+        .hero {
+            min-height: 100vh;
+            background: linear-gradient(140deg, var(--success), #20c997 70%),
+                        url('data:image/svg+xml,<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><rect width="100" height="100" fill="%23ffffff" opacity="0.05"/></svg>');
+            background-size: 40px 40px, cover;
+            background-position: 0 0, center;
+            background-repeat: repeat, no-repeat;
+            display: flex;
+            align-items: center;
+            padding: 5rem 1rem;
+        }
+        .hero h1 {
+            font-size: clamp(2.2rem, 6vw, 4.5rem);
+            margin: 0 0 1.5rem;
+        }
+        .lead {
+            font-size: 1.3rem;
+        }
+        .cta-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: #fff;
+            color: var(--success) !important;
+            font-weight: 600;
+            padding: .9rem 2.5rem;
+            border-radius: 3rem;
+            box-shadow: 0 8px 25px rgba(40, 167, 69, .3);
+            transition: all .3s;
+            text-decoration: none;
+        }
+        .cta-btn:hover {
+            transform: translateY(-3px) scale(1.03);
+            box-shadow: 0 15px 40px rgba(40, 167, 69, .4);
+        }
+        @media (prefers-reduced-motion: reduce) {
+            *, button, a {
+                animation-duration: .01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: .01ms !important;
+            }
+        }
+    </style>
+
+    <!-- 10x SCHEMA FORTRESS -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -113,7 +175,6 @@
             },
             {
                 "@type": "Person",
-                "@id": "https://brightlane.github.io/eCommerceAnalyticsTool/author/benny",
                 "name": "Benny Palmarino",
                 "givenName": "Benny",
                 "familyName": "Palmarino",
@@ -134,7 +195,7 @@
                 "@type": "Article",
                 "headline": "Jungle Scout Review 2026",
                 "name": "Jungle Scout 2026 Review",
-                "description": "Hands‑on review of Jungle Scout sizing up Keyword Scout vs Helium 10, Opportunity Score, pricing, and accuracy for Amazon FBA sellers.",
+                "description": "Hands‑on Jungle Scout 2026 review sizing up Keyword Scout vs Helium 10, Opportunity Score, accuracy, and pricing for Amazon FBA sellers.",
                 "wordCount": 2500,
                 "inLanguage": "en",
                 "isFamilyFriendly": true,
@@ -217,7 +278,7 @@
                         "name": "What does Jungle Scout Opportunity Score mean?",
                         "acceptedAnswer": {
                             "@type": "Answer",
-                            "text": "Opportunity Score rates 1-10 how profitable a product or keyword looks on Amazon based on demand, competition, and estimated margins. Scores closer to 10 are better opportunities."
+                            "text": "Opportunity Score rates products and keywords from 1 to 10 based on demand, competition, and profit margins, where 10 is the best opportunity. Jungle Scout uses sales data, reviews, and competition to calculate this score for Amazon FBA sellers."
                         }
                     },
                     {
@@ -225,7 +286,7 @@
                         "name": "Jungle Scout vs Helium 10 in 2026?",
                         "acceptedAnswer": {
                             "@type": "Answer",
-                            "text": "Jungle Scout wins for pure product research and validation accuracy, while Helium 10 dominates full‑funnel workflow including listing optimization and PPC. For most new sellers, Jungle Scout is the better starting tool."
+                            "text": "Jungle Scout wins for pure product research, validation, and accuracy, while Helium 10 dominates listing optimization, PPC, and full‑funnel workflows. For new sellers, Jungle Scout is often the better first tool thanks to Keyword Scout and Opportunity Score."
                         }
                     },
                     {
@@ -233,7 +294,7 @@
                         "name": "Is Jungle Scout worth it in 2026?",
                         "acceptedAnswer": {
                             "@type": "Answer",
-                            "text": "Yes, Jungle Scout 2026 is still worth it if you're serious about Amazon FBA and need high‑accuracy product and keyword data, especially around Opportunity Score and Keyword Scout, but it's more expensive than some competitors."
+                            "text": "Yes, if you're serious about Amazon FBA and need high‑accuracy product and keyword data, especially around Opportunity Score and Keyword Scout. It's more expensive than some competitors, but many sellers consider it worth the price for its data reliability and user‑friendly interface."
                         }
                     }
                 ]
@@ -245,79 +306,4 @@
                 "step": [
                     {
                         "@type": "HowToStep",
-                        "name": "Enter seed keyword",
-                        "text": "Type a broad term like 'coffee maker' into the Keyword Scout search box and run the query."
-                    },
-                    {
-                        "@type": "HowToStep",
-                        "name": "Apply filters",
-                        "text": "Filter by broad match volume, keyword length, and PPC bid to find high‑volume, low‑competition long‑tail keywords."
-                    },
-                    {
-                        "@type": "HowToStep",
-                        "name": "Export and build listing",
-                        "text": "Export the keyword list, then optimize title, bullet points, and backend for your top 10–20 keywords."
-                    }
-                ],
-                "estimatedCost": {
-                    "@type": "MonetaryAmount",
-                    "value": 49,
-                    "currency": "USD"
-                },
-                "timeRequired": "PT15M"
-            },
-            {
-                "@type": "VideoObject",
-                "name": "Jungle Scout 2026 Demo",
-                "description": "Live walkthrough of Jungle Scout Keyword Scout, Opportunity Score, and product validation features in 2026.",
-                "thumbnailUrl": "https://brightlane.github.io/eCommerceAnalyticsTool/thumb.jpg",
-                "uploadDate": "2026-03-26",
-                "duration": "PT6M0S",
-                "contentUrl": "https://youtube.com/embed/demo-jungle-scout",
-                "embedUrl": "https://youtube.com/embed/demo-jungle-scout",
-                "interactionStatistic": {
-                    "@type": "InteractionCounter",
-                    "interactionType": "https://schema.org/WatchAction",
-                    "userInteractionCount": 10000
-                },
-                "width": "1920",
-                "height": "1080",
-                "caption": "Jungle Scout 2026 Keyword Scout and Opportunity Score demo for Amazon FBA sellers.",
-                "publisher": {
-                    "@type": "Organization",
-                    "name": "Palmo Kid LLC",
-                    "logo": {
-                        "@type": "ImageObject",
-                        "url": "https://brightlane.github.io/eCommerceAnalyticsTool/logo-light.png"
-                    }
-                }
-            },
-            {
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://brightlane.github.io/eCommerceAnalyticsTool/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "Amazon FBA Tools",
-                        "item": "https://brightlane.github.io/eCommerceAnalyticsTool/amazon-tools/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "Jungle Scout Review 2026",
-                        "item": "https://brightlane.github.io/eCommerceAnalyticsTool/jungle-scout-review-2026.html"
-                    }
-                ]
-            }
-        ]
-    }
-    </script>
-
-    <!-- ATOMICS CRITICAL CSS + No‑JS Fallback -->
-    <style
+                        "name": "Enter a seed keyword
